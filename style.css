@@ -1,0 +1,24 @@
+header
+{display: block;
+background-color:#782221;
+color: white;
+font-family: url("./Fonts/Lato-Bold.ttf");
+}
+div
+{display: block;
+background-color: #782221;
+color: white;}
+
+footer
+{display: block;
+background-color: #782221;
+color: white;}
+
+images
+{display: block 
+    width:inherit 100px;}
+
+.adresse
+{display:block
+font-family: url ("./Fonts/Raleway-VariableFont_wght.woff");
+}
