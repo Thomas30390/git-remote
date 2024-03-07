@@ -1,21 +1,21 @@
-#header
+.header
 {display: block;
 background-color:#782221;
 color: white;
 font-family: url("./Fonts/Lato-Bold.ttf");
 }
 
-#div
+.div
 {display: block;
 background-color: #782221;
 color: white;}
 
-#footer
+.footer
 {display: block;
 background-color: #782221;
 color: white;}
 
-#images
+.images
 {display: block 
     width:inherit 100px;}
 
