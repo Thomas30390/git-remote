@@ -7,26 +7,24 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <header>
-    <img class="image_profil" src="./Images/profil.png" alt="">
-    <h1>John DOE</h1>
-    <h2>Développeur Web Junior</h2>
+    <p id="profil"><img class="image_profil" src="./Images/profil.png" alt=""></p>
+    <p id="identité"><h1>John DOE</h1>
+    <h2>Développeur Web Junior</h2></p>
 </header>
 <body>
     <main>
-        <div class="adresse">
-            12 rue des oliviers <br>
-            53200 la roche Neuville <br>
-            johndoe@gmail.com
-            <img class="image_appel_téléphonique" src="./Images/appel-telephonique.png" alt="">
-            0606060606
+        <div id="flex-row">
+            <p id="googlemaps"><a href="https://www.google.fr/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8746112,-0.754611,17z/data=!3m1!4b1!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746112!4d-0.7520307!16s%2Fg%2F11c1fvm555?entry=ttu" target="_blank">12 rue des oliviers 53200 La Roche Neuville</a></p>
+            <p id="mail to"><a href="mailto:johndoe@gmail.com">johndoe@gmail.com</a></p>
+            <p id="téléphone"><a href="tel: 0606060606" src="" alt="">0606060606</a></p>
         </div>
-        <div>
-            <h3>A propos</h3>A propos
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit blanditiis odit ab dolore id fugit vel, iusto qui possimus officia laborum praesentium est soluta dolorem, maxime voluptas doloribus? Nam, harum.
+        <div id="gauche">
+            <h3>A propos</h3>
+            <p id="Apropos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit blanditiis odit ab dolore id fugit vel, iusto qui possimus officia laborum praesentium est soluta dolorem, maxime voluptas doloribus? Nam, harum.</p>
             <h3>Langues parlées</h3>
             <h3>Centre d'interêt</h3>
         </div>
-        <div class="cadre">
+        <div id="droite">
             <h4>Expériences professionnelles</h4>
             Responsable d'Exploitation
             de mars 2023 à mars 2024 chez Yzope Sécurité Privé <br>
@@ -48,12 +46,8 @@
             Github : débutant <br>
         </div>
     </main>
-    <footer class="images">
-        
-        <img src="./Images/facebook.png", alt="">
-        <img src="./Images/linkedin.png", alt="">
-        <img src="./Images/github.png" alt="">
-        dernière mise à jour 05/03/2024 <br>
+    <footer>
+        <p>dernière mise à jour 08/03/2024</p>
     </footer>
 </body>
 </html>

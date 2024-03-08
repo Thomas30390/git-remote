@@ -1,39 +1,112 @@
-header
-        {display: inline-block;
-        background-color:#782221;
-        color: white;
-        font-family: url("./Fonts/Lato-Bold.ttf");
+@font-face 
+        {
+        font-family: "Late";
+        src: url("./Fonts/Lato-Bold.ttf");
+        font-family: "raleway";
+        src: url("./Fonts/Raleway-VariableFont_wght.woff");
+        src: url("./Fonts/Raleway-VariableFont_wght.ttf");
         }
-
-div
-        {background-color: #782221;
-        color: white;}
-
-footer
-        {display: inline-block;
-        background-color: #782221;
-        color: white;
-        }
-
-.image_profil
-        {display: flex
         
-        width: inherit 100px;
+header 
+        {
+        font-family: "late";
+        background-color: #782221;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1160px;
         }
 
-.adresse
-        {display: inline-block
-        font-family: url ("./Fonts/Raleway-VariableFont_wght.woff");flex-direction: row;
-        justify-content: space-evenly;
+h3      
+        {
+        font-family: "late";
+        background-color: #dbc2a4;
+        }
+
+h4      
+        {
+        font-family: "late";
+        background-color: #dbc2a4;
+        }
+
+main 
+        {
+        font-family: "raleway";
+        margin-left: auto;
+        margin-right: auto;
+        width: 1160px;
         background-color: #782221;
+        }
+footer
+        {
+        width: 1160px;
+        height: 200px;
+        text-align: center;
+        text-emphasis-position: bottom;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #782221;
+        background-image: url("./Images/facebook.png"), url("./Images/linkedin.png"), url("./Images/github.png");
+        margin-top: 15px;
+                text-align: center;
+                font-size: 13px;
+                margin-bottom: 0;
+
+        }
+
+        #flex-row
+        {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+        background-color: #2c1d27;
         color: white;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: left;
+        background-position-x: 5px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 50px;
         }
-.cadre
+        
+        #téléphone
         {
+        width: 50px;
+        height: 50px;
+        margin-right: 75px;
+        }
+        #mailto
+        {
+        text-align: center;
+        }
+        #Apropos
+        {
+        text-indent: 25px;
+        }
+        #profil
+        {
+        display: flex;
+        width: 175px;
+        height: 175px;
+        position: top;
+        margin: auto;
+        border-radius: 10px 10px 10px solid #2c1d27;
+        }
+        #gauche
+        {
+        display: flex;
+        flex-direction: column;
         background-color: #782221;
-        color: white
         }
-.image_appel-telephonique
+        #droite
         {
-            width: 200px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        }
+        #div
+        {
+        flex-basis: 50%;
         }
