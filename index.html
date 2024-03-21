@@ -1,53 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURRICULUM VITAE</title>
     <link href="style.css" rel="stylesheet">
 </head>
-<header>
-    <p id="profil"><img class="image_profil" src="./Images/profil.png" alt=""></p>
-    <p id="identité"><h1>John DOE</h1>
-    <h2>Développeur Web Junior</h2></p>
-</header>
+
 <body>
+    <header>
+        <p id="profil"><img class="image_profil" src="./Images/profil.png" alt=""></p>
+        <p id="identité">
+        <h1>John DOE</h1>
+        <h2>Développeur Web Junior</h2>
+        </p>
+    </header>
     <main>
         <div id="flex-row">
-            <p id="googlemaps"><a href="https://www.google.fr/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8746112,-0.754611,17z/data=!3m1!4b1!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746112!4d-0.7520307!16s%2Fg%2F11c1fvm555?entry=ttu" target="_blank">12 rue des oliviers 53200 La Roche Neuville</a></p>
-            <p id="mail to"><a href="mailto:johndoe@gmail.com">johndoe@gmail.com</a></p>
-            <p id="téléphone"><a href="tel: 0606060606" src="" alt="">0606060606</a></p>
+            <p id="googlemaps"><a
+                    href="https://www.google.fr/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8746112,-0.754611,17z/data=!3m1!4b1!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746112!4d-0.7520307!16s%2Fg%2F11c1fvm555?entry=ttu"
+                    target="_blank">12 rue des oliviers 53200 La Roche Neuville</a></p>
+            <p id="mail"><a href="mailto:johndoe@gmail.com">johndoe@gmail.com</a></p>
+            <p id="téléphone"><a href="tel:+33606060606">0606060606</a></p>
         </div>
-        <div id="gauche">
-            <h3>A propos</h3>
-            <p id="Apropos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit blanditiis odit ab dolore id fugit vel, iusto qui possimus officia laborum praesentium est soluta dolorem, maxime voluptas doloribus? Nam, harum.</p>
-            <h3>Langues parlées</h3>
-            <h3>Centre d'interêt</h3>
+        <div class="droiteetgauche">
+            <div id="gauche">
+                <h3>A propos</h3>
+                <p id="Apropos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit blanditiis odit ab dolore
+                    id fugit vel, iusto qui possimus officia laborum praesentium est soluta dolorem, maxime voluptas
+                    doloribus? Nam, harum.</p>
+                <h3>Langues parlées</h3>
+                <h3>Centre d'interêt</h3>
+            </div>
+
+            <div id="droite">
+                <h4>Expériences professionnelles</h4>
+                Responsable d'Exploitation
+                de mars 2023 à mars 2024 chez Yzope Sécurité Privé <br>
+                Gérant d'entreprise de Sécurité privé
+                de novembre 2015 à juillet 2023 <br>
+                Opérateur Sécurité privé chez Aquila
+                de mars 2010 à Novembre 2015 <br>
+                Intervenant sur alarme
+                de juin 2007 à décembre 2009 chez Sécuritas Mobile Valence <br>
+                <h4>Diplômes/Formations</h4>
+                Depuis février 2024 : Développeur Web <br>
+                Novembre 2015 : Titre de Dirigeant d'entreprise de Sécurité Privée (Niveau V) <br>
+                Sous-officier Sapeurs Pompiers Volontaire (20 ans de service) <br>
+            </div>
         </div>
-        <div id="droite">
-            <h4>Expériences professionnelles</h4>
-            Responsable d'Exploitation
-            de mars 2023 à mars 2024 chez Yzope Sécurité Privé <br>
-            Gérant d'entreprise de Sécurité privé
-            de novembre 2015 à juillet 2023 <br>
-            Opérateur Sécurité privé chez Aquila
-            de mars 2010 à Novembre 2015 <br>
-            Intervenant sur alarme
-            de juin 2007 à décembre 2009 chez Sécuritas Mobile Valence <br>
-            <h4>Diplômes/Formations</h4>
-            Depuis février 2024 : Développeur Web <br>
-            Novembre 2015 : Titre de Dirigeant d'entreprise de Sécurité Privée (Niveau V) <br>
-            Sous-officier Sapeurs Pompiers Volontaire (20 ans de service) <br>
 
-
-            <h4>Compétences</h4>
-            HTML5 : Expert <br>
-            CSS3 : intermediaire <br>
-            Github : débutant <br>
+        <h4>Compétences</h4>
+        HTML5 : Expert <br>
+        CSS3 : intermediaire <br>
+        Github : débutant <br>
         </div>
     </main>
     <footer>
         <p>dernière mise à jour 08/03/2024</p>
+        <a href="https://www.facebook.com/?locale=fr_FR"><span id="facebook"></span></a>
+        <a href="https://github.com/"><span id="github"></span></a>
+        <a href="https://fr.linkedin.com/"><span id="linkedin"></span></a>
     </footer>
 </body>
+
 </html>
