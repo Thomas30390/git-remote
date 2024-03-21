@@ -6,7 +6,26 @@
         src: url("./Fonts/Raleway-VariableFont_wght.woff");
         src: url("./Fonts/Raleway-VariableFont_wght.ttf");
         }
+        span
+        {
+                font-weight: bold;
+                font-size: 1.2em;
+        }
+        a:link {
+                color: white;
+        }
+        a:visited {
+                color: white;
+        }
+        a:link, a:visited {
+                text-decoration: none;
+        }
+        .global
+        {margin-left: auto;
+        margin-right: auto;
+        width: 1160px;
         
+}
 header 
         {
         font-family: "late";
@@ -30,6 +49,7 @@ h4
         font-family: "late";
         background-color: #dbc2a4;
         color: black;
+        text-indent: 5%;
         }
 
 main 
@@ -39,6 +59,7 @@ main
         margin-right: auto;
         width: 1160px;
         background-color: #782221;
+        border-right: solid black;
         }
 footer
         {
@@ -49,7 +70,6 @@ footer
         margin-left: auto;
         margin-right: auto;
         background-color: #782221;
-        background-image: url("./Images/facebook.png"), url("./Images/linkedin.png"), url("./Images/github.png");
         background-repeat: no-repeat;
         background-position: left, center, right;
         background-position-x: 450px, 550px, 650px;
@@ -98,12 +118,14 @@ footer
         flex-direction: column;
         background-color: #782221;
         color: white;
+        width: 30%;
         }
         #droite
         {
         display: flex;
         flex-direction: column;
         background-color: white;
+        width: 70%;
         }
         #div
         {
@@ -112,4 +134,5 @@ footer
         .droiteetgauche
         {
                 display: flex;
+                
         }
