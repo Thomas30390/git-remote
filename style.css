@@ -19,13 +19,14 @@ a:link,
 a:visited {
   text-decoration: none;
 }
-#profil:hover{
+
+#profil:hover
+{
   cursor: zoom-in;
 }
 
-
-
-header {
+header 
+{
   font-family: "late";
   background-color: #782221;
   color: white;
@@ -35,7 +36,8 @@ header {
   width: 1160px;
 }
 
-h3 {
+h3 
+{
   font-family: "late";
   background-color: #dbc2a4;
   margin-right: 75px;
@@ -43,7 +45,8 @@ h3 {
     color: black;
 }
 
-h4 {
+h4 
+{
   font-family: "late";
   background-color: #dbc2a4;
   border-left: 5px solid #782221;
@@ -53,7 +56,8 @@ h4 {
   font-size: 1.5em;
 }
 
-main {
+main
+ {
   font-family: "raleway";
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +65,9 @@ main {
   background-color: #782221;
   border-right: solid black;
 }
-footer {
+
+footer 
+{
   width: 1160px;
   height: 200px;
   text-align: center;
@@ -73,10 +79,28 @@ footer {
   background-repeat: no-repeat;
   background-position: left, center, right;
   background-position-x: 450px, 550px, 650px;
-  background-size: 75px, 75px, 75px;
+  background-size: 75px, 75px, 75px; 
+  
+}
+.social
+a:hover
+{
+  opacity: 0.5;
+
+}
+.adresse
+a:hover
+{
+  text-decoration: underline;
+}
+.titre:hover
+{
+  padding-right: 0.5rem;
+  border-right: 0.5rem solid #782221;
 }
 
-#flex-row {
+#flex-row 
+{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -87,15 +111,19 @@ footer {
   text-indent: 15px;
 }
 
-#téléphone {
+#téléphone 
+{
   width: 50px;
   height: 50px;
   margin-right: 75px;
 }
-#mailto {
+#mailto 
+{
   text-align: center;
 }
-#Apropos {
+
+#Apropos 
+{
   text-indent: 25px;
 }
 #profil 
@@ -109,22 +137,26 @@ footer {
   border:7px solid #2c1d27;
   flex: auto;
 }
-#gauche {
+#gauche 
+{
   display: flex;
   flex-direction: column;
   background-color: #782221;
   color: white;
   width: 30%;
 }
-#droite {
+#droite 
+{
   display: flex;
   flex-direction: column;
   background-color: white;
   width: 70%;
 }
-#div {
+#div 
+{
   flex-basis: 50%;
 }
-.droiteetgauche {
+.droiteetgauche 
+{
   display: flex;
 }
