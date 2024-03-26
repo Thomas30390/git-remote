@@ -19,6 +19,11 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+#profil:hover{
+  cursor: zoom-in;
+}
+
+
 
 header {
   font-family: "late";
@@ -34,6 +39,7 @@ h3 {
   font-family: "late";
   background-color: #dbc2a4;
   margin-right: 75px;
+  margin-left: 5px;
     color: black;
 }
 
@@ -44,6 +50,7 @@ h4 {
   color: black;
   margin-left: 50px;
   text-indent: 5%;
+  font-size: 1.5em;
 }
 
 main {
@@ -94,12 +101,13 @@ footer {
 #profil 
 {
   display: flex;
-  flex-wrap: center;
+  margin:auto;
   width: 175px;
   height: 175px;
   background-color: #dbc2a4;
   border-radius: 50%;
   border:7px solid #2c1d27;
+  flex: auto;
 }
 #gauche {
   display: flex;
